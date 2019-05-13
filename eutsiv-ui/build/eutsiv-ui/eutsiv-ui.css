@@ -211,314 +211,313 @@ eutsiv UI does not touch in the html and body tags, you can configure those tags
 Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
 
 */
-.eui-viewport div.eui-grid {
+.eui-viewport div.eui-layout-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-  .eui-viewport div.eui-grid .eui-row {
+  .eui-viewport div.eui-layout-grid .eui-row {
     flex: 0 1 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-0 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-0 {
     margin-left: 0 !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-1 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-1 {
     flex: 0 1 4.16667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-1 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-1 {
     margin-left: 4.16667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-2 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-2 {
     flex: 0 1 8.33333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-2 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-2 {
     margin-left: 8.33333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-3 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-3 {
     flex: 0 1 12.5%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-3 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-3 {
     margin-left: 12.5% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-4 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-4 {
     flex: 0 1 16.66667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-4 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-4 {
     margin-left: 16.66667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-5 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-5 {
     flex: 0 1 20.83333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-5 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-5 {
     margin-left: 20.83333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-6 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-6 {
     flex: 0 1 25%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-6 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-6 {
     margin-left: 25% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-7 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-7 {
     flex: 0 1 29.16667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-7 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-7 {
     margin-left: 29.16667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-8 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-8 {
     flex: 0 1 33.33333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-8 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-8 {
     margin-left: 33.33333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-9 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-9 {
     flex: 0 1 37.5%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-9 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-9 {
     margin-left: 37.5% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-10 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-10 {
     flex: 0 1 41.66667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-10 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-10 {
     margin-left: 41.66667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-11 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-11 {
     flex: 0 1 45.83333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-11 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-11 {
     margin-left: 45.83333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-12 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-12 {
     flex: 0 1 50%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-12 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-12 {
     margin-left: 50% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-13 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-13 {
     flex: 0 1 54.16667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-13 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-13 {
     margin-left: 54.16667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-14 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-14 {
     flex: 0 1 58.33333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-14 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-14 {
     margin-left: 58.33333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-15 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-15 {
     flex: 0 1 62.5%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-15 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-15 {
     margin-left: 62.5% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-16 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-16 {
     flex: 0 1 66.66667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-16 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-16 {
     margin-left: 66.66667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-17 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-17 {
     flex: 0 1 70.83333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-17 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-17 {
     margin-left: 70.83333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-18 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-18 {
     flex: 0 1 75%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-18 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-18 {
     margin-left: 75% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-19 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-19 {
     flex: 0 1 79.16667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-19 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-19 {
     margin-left: 79.16667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-20 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-20 {
     flex: 0 1 83.33333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-20 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-20 {
     margin-left: 83.33333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-21 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-21 {
     flex: 0 1 87.5%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-21 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-21 {
     margin-left: 87.5% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-22 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-22 {
     flex: 0 1 91.66667%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-22 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-22 {
     margin-left: 91.66667% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-23 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-23 {
     flex: 0 1 95.83333%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-23 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-23 {
     margin-left: 95.83333% !important; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-24 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-24 {
     flex: 0 1 100%;
     margin-left: 0;
     overflow: auto; }
-  .eui-viewport div.eui-grid .eui-column.eui-sm-offset-24 {
+  .eui-viewport div.eui-layout-grid .eui-column.eui-sm-offset-24 {
     margin-left: 100% !important; }
   @media only screen and (min-width: 801px) {
-    .eui-viewport div.eui-grid .eui-column.eui-offset-0 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-0 {
       margin-left: 0 !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-1 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-1 {
       flex: 0 1 4.16667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-1 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-1 {
       margin-left: 4.16667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-2 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-2 {
       flex: 0 1 8.33333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-2 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-2 {
       margin-left: 8.33333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-3 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-3 {
       flex: 0 1 12.5%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-3 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-3 {
       margin-left: 12.5% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-4 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-4 {
       flex: 0 1 16.66667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-4 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-4 {
       margin-left: 16.66667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-5 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-5 {
       flex: 0 1 20.83333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-5 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-5 {
       margin-left: 20.83333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-6 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-6 {
       flex: 0 1 25%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-6 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-6 {
       margin-left: 25% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-7 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-7 {
       flex: 0 1 29.16667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-7 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-7 {
       margin-left: 29.16667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-8 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-8 {
       flex: 0 1 33.33333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-8 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-8 {
       margin-left: 33.33333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-9 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-9 {
       flex: 0 1 37.5%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-9 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-9 {
       margin-left: 37.5% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-10 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-10 {
       flex: 0 1 41.66667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-10 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-10 {
       margin-left: 41.66667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-11 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-11 {
       flex: 0 1 45.83333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-11 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-11 {
       margin-left: 45.83333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-12 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-12 {
       flex: 0 1 50%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-12 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-12 {
       margin-left: 50% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-13 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-13 {
       flex: 0 1 54.16667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-13 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-13 {
       margin-left: 54.16667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-14 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-14 {
       flex: 0 1 58.33333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-14 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-14 {
       margin-left: 58.33333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-15 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-15 {
       flex: 0 1 62.5%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-15 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-15 {
       margin-left: 62.5% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-16 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-16 {
       flex: 0 1 66.66667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-16 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-16 {
       margin-left: 66.66667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-17 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-17 {
       flex: 0 1 70.83333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-17 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-17 {
       margin-left: 70.83333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-18 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-18 {
       flex: 0 1 75%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-18 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-18 {
       margin-left: 75% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-19 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-19 {
       flex: 0 1 79.16667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-19 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-19 {
       margin-left: 79.16667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-20 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-20 {
       flex: 0 1 83.33333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-20 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-20 {
       margin-left: 83.33333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-21 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-21 {
       flex: 0 1 87.5%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-21 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-21 {
       margin-left: 87.5% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-22 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-22 {
       flex: 0 1 91.66667%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-22 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-22 {
       margin-left: 91.66667% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-23 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-23 {
       flex: 0 1 95.83333%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-23 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-23 {
       margin-left: 95.83333% !important; }
-    .eui-viewport div.eui-grid .eui-column.eui-24 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-24 {
       flex: 0 1 100%;
       margin-left: 0;
       overflow: auto; }
-    .eui-viewport div.eui-grid .eui-column.eui-offset-24 {
+    .eui-viewport div.eui-layout-grid .eui-column.eui-offset-24 {
       margin-left: 100% !important; } }
 
 .eui-viewport .eui-gutter {
-  width: 100%;
-  padding: 0.72em;
-  font-size: 1em; }
+  display: inline-block;
+  padding: 8px; }
 
 .eui-viewport div.eui-vspace {
   width: 100%;
@@ -527,6 +526,9 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
 
 .eui-viewport .eui-component {
   position: static; }
+
+.eui-viewport .eui-fit {
+  width: 100%; }
 
 /*
 
@@ -556,13 +558,13 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
   .eui-viewport *::-webkit-scrollbar {
     width: 6px;
     height: 6px;
-    background-color: #e6e6e6; }
+    background-color: #ebebeb; }
   .eui-viewport::-webkit-scrollbar-thumb,
   .eui-viewport *::-webkit-scrollbar-thumb {
     background: #214478; }
   .eui-viewport::-webkit-scrollbar-thumb:hover,
   .eui-viewport *::-webkit-scrollbar-thumb:hover {
-    background: #3771c8; }
+    background: #647ca1; }
 
 .eui-viewport .eui-badge-container {
   position: relative; }
@@ -582,111 +584,110 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
     line-height: 1.6em;
     font-size: 0.92em;
     font-weight: bold;
-    color: #232323;
-    background: #d9d9d9;
+    color: #222222;
+    background: #dbdbdb;
     -webkit-tap-highlight-color: transparent; }
     .eui-viewport .eui-badge-container .eui-badge.eui-primary {
-      color: #ffffff;
+      color: #ebebeb;
       background: #214478; }
     .eui-viewport .eui-badge-container .eui-badge.eui-secondary {
-      color: #ffffff;
-      background: #5AA02C; }
+      color: #ebebeb;
+      background: #5aa02c; }
     .eui-viewport .eui-badge-container .eui-badge.eui-danger {
-      color: #ffffff;
+      color: #ebebeb;
       background: #f21c0d; }
     .eui-viewport .eui-badge-container .eui-badge.eui-warning {
-      color: #ffffff;
+      color: #ebebeb;
       background: #ff9900; }
     .eui-viewport .eui-badge-container .eui-badge.eui-caution {
-      color: #232323;
+      color: #222222;
       background: #ffe500; }
     .eui-viewport .eui-badge-container .eui-badge.eui-notice {
-      color: #ffffff;
+      color: #ebebeb;
       background: #0d8bf2; }
     .eui-viewport .eui-badge-container .eui-badge.eui-safety {
-      color: #ffffff;
+      color: #ebebeb;
       background: #4eb151; }
 
 .eui-viewport ul.eui-breadcrumb {
   margin: 0;
-  padding: 0;
+  padding: 12px 16px;
+  line-height: 1.1;
   list-style: none;
   display: inline-table;
-  color: #0d1b30; }
+  color: #173054; }
   .eui-viewport ul.eui-breadcrumb > li {
     display: inline; }
     .eui-viewport ul.eui-breadcrumb > li > i {
       margin: 0 0.40em; }
     .eui-viewport ul.eui-breadcrumb > li > span.eui-active {
-      color: #232323;
+      color: #222222;
       cursor: default; }
 
 .eui-viewport a.eui-button, .eui-viewport button.eui-button, .eui-viewport input.eui-button {
   cursor: pointer;
   display: inline-block;
-  height: 2.56em;
-  margin: 0;
-  padding: 0 1.28em;
+  padding: 12px 20px;
   border: none;
   outline: 0;
-  line-height: 2.56em;
+  line-height: 1.1;
   text-decoration: none;
   text-shadow: none;
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color: #232323;
-  background: #e6e6e6;
+  color: #222222;
+  background: #ebebeb;
   z-index: 1;
   transition: 0.2s ease-out;
   user-select: none;
   -webkit-tap-highlight-color: transparent; }
   .eui-viewport a.eui-button:hover, .eui-viewport button.eui-button:hover, .eui-viewport input.eui-button:hover {
-    background: #d9d9d9; }
+    background: #dbdbdb; }
   .eui-viewport a.eui-button.eui-primary, .eui-viewport button.eui-button.eui-primary, .eui-viewport input.eui-button.eui-primary {
     color: #ffffff;
     background: #214478; }
     .eui-viewport a.eui-button.eui-primary:hover, .eui-viewport button.eui-button.eui-primary:hover, .eui-viewport input.eui-button.eui-primary:hover {
-      background: #172f54; }
+      background: #173054; }
   .eui-viewport a.eui-button.eui-secondary, .eui-viewport button.eui-button.eui-secondary, .eui-viewport input.eui-button.eui-secondary {
     color: #ffffff;
-    background: #5AA02C; }
+    background: #5aa02c; }
     .eui-viewport a.eui-button.eui-secondary:hover, .eui-viewport button.eui-button.eui-secondary:hover, .eui-viewport input.eui-button.eui-secondary:hover {
-      background: #467c22; }
+      background: #3f701f; }
   .eui-viewport a.eui-button.eui-danger, .eui-viewport button.eui-button.eui-danger, .eui-viewport input.eui-button.eui-danger {
     color: #ffffff;
     background: #f21c0d; }
     .eui-viewport a.eui-button.eui-danger:hover, .eui-viewport button.eui-button.eui-danger:hover, .eui-viewport input.eui-button.eui-danger:hover {
-      background: #d5190b; }
+      background: #a91409; }
   .eui-viewport a.eui-button.eui-warning, .eui-viewport button.eui-button.eui-warning, .eui-viewport input.eui-button.eui-warning {
     color: #ffffff;
     background: #ff9900; }
     .eui-viewport a.eui-button.eui-warning:hover, .eui-viewport button.eui-button.eui-warning:hover, .eui-viewport input.eui-button.eui-warning:hover {
-      background: #eb8d00; }
+      background: #cc7a00; }
   .eui-viewport a.eui-button.eui-caution, .eui-viewport button.eui-button.eui-caution, .eui-viewport input.eui-button.eui-caution {
-    color: #232323;
+    color: #222222;
     background: #ffe500; }
     .eui-viewport a.eui-button.eui-caution:hover, .eui-viewport button.eui-button.eui-caution:hover, .eui-viewport input.eui-button.eui-caution:hover {
-      background: #ebd300; }
+      background: #ccb700; }
   .eui-viewport a.eui-button.eui-notice, .eui-viewport button.eui-button.eui-notice, .eui-viewport input.eui-button.eui-notice {
     color: #ffffff;
     background: #0d8bf2; }
     .eui-viewport a.eui-button.eui-notice:hover, .eui-viewport button.eui-button.eui-notice:hover, .eui-viewport input.eui-button.eui-notice:hover {
-      background: #0b7ad5; }
+      background: #0961a9; }
   .eui-viewport a.eui-button.eui-safety, .eui-viewport button.eui-button.eui-safety, .eui-viewport input.eui-button.eui-safety {
     color: #ffffff;
     background: #4eb151; }
     .eui-viewport a.eui-button.eui-safety:hover, .eui-viewport button.eui-button.eui-safety:hover, .eui-viewport input.eui-button.eui-safety:hover {
-      background: #449c47; }
+      background: #377c39; }
   .eui-viewport a.eui-button.eui-reverse, .eui-viewport button.eui-button.eui-reverse, .eui-viewport input.eui-button.eui-reverse {
     color: #ffffff;
-    background: #232323; }
+    background: #222222; }
     .eui-viewport a.eui-button.eui-reverse:hover, .eui-viewport button.eui-button.eui-reverse:hover, .eui-viewport input.eui-button.eui-reverse:hover {
       background: #000000; }
   .eui-viewport a.eui-button:disabled, .eui-viewport a.eui-button[disabled], .eui-viewport button.eui-button:disabled, .eui-viewport button.eui-button[disabled], .eui-viewport input.eui-button:disabled, .eui-viewport input.eui-button[disabled] {
     pointer-events: none;
-    background: #e6e6e6;
+    background: #fafafa;
     color: #8f8f8f;
     cursor: default; }
   .eui-viewport a.eui-button.eui-flat, .eui-viewport button.eui-button.eui-flat, .eui-viewport input.eui-button.eui-flat {
@@ -698,7 +699,7 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
     .eui-viewport a.eui-button.eui-flat.eui-primary, .eui-viewport button.eui-button.eui-flat.eui-primary, .eui-viewport input.eui-button.eui-flat.eui-primary {
       color: #214478; }
     .eui-viewport a.eui-button.eui-flat.eui-secondary, .eui-viewport button.eui-button.eui-flat.eui-secondary, .eui-viewport input.eui-button.eui-flat.eui-secondary {
-      color: #5AA02C; }
+      color: #5aa02c; }
     .eui-viewport a.eui-button.eui-flat.eui-danger, .eui-viewport button.eui-button.eui-flat.eui-danger, .eui-viewport input.eui-button.eui-flat.eui-danger {
       color: #f21c0d; }
     .eui-viewport a.eui-button.eui-flat.eui-warning, .eui-viewport button.eui-button.eui-flat.eui-warning, .eui-viewport input.eui-button.eui-flat.eui-warning {
@@ -717,19 +718,15 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
       color: #8f8f8f;
       cursor: default; }
   .eui-viewport a.eui-button.eui-block, .eui-viewport button.eui-button.eui-block, .eui-viewport input.eui-button.eui-block {
-    display: block;
     width: 100%; }
   .eui-viewport a.eui-button.eui-compact, .eui-viewport button.eui-button.eui-compact, .eui-viewport input.eui-button.eui-compact {
-    height: 1.72em;
-    line-height: 1.72em;
-    padding: 0 0.56em;
+    line-height: 1.1;
+    padding: 6px 10px;
     font-weight: normal; }
-  .eui-viewport a.eui-button.eui-spaced, .eui-viewport button.eui-button.eui-spaced, .eui-viewport input.eui-button.eui-spaced {
-    margin: 0 2px 2px 0; }
   .eui-viewport a.eui-button > i.eui-icon:first-child, .eui-viewport button.eui-button > i.eui-icon:first-child, .eui-viewport input.eui-button > i.eui-icon:first-child {
-    margin: 0 0.428571429em 0 -0.214285714em; }
+    margin: 0 8px 0 -4px; }
   .eui-viewport a.eui-button > i.eui-icon:last-child, .eui-viewport button.eui-button > i.eui-icon:last-child, .eui-viewport input.eui-button > i.eui-icon:last-child {
-    margin: 0 -0.214285714em 0 0.428571429em; }
+    margin: 0 -4px 0 8px; }
 
 .eui-viewport .eui-calendar h2 {
   margin: 0;
@@ -759,8 +756,8 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
     flex-direction: row;
     flex-grow: 1; }
     .eui-viewport .eui-calendar > .eui-calendar-grid > .eui-calendar-row > .eui-day {
-      background: #f2f2f2;
-      border: 1px solid #e6e6e6;
+      background: #fafafa;
+      border: 1px solid #ebebeb;
       border-bottom: 0;
       border-right: 0; }
       .eui-viewport .eui-calendar > .eui-calendar-grid > .eui-calendar-row > .eui-day.eui-other-month {
@@ -805,7 +802,7 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
 
 .eui-viewport .row {
   width: 100%;
-  border-bottom: 1px solid #e0e0e0; }
+  border-bottom: 1px solid #ebebeb; }
 
 .eui-viewport .row:nth-child(odd) {
   background-color: #f8f8f8; }
@@ -821,45 +818,43 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
   margin: 0;
   padding: 0.64em 1.28em;
   font-size: 1em;
-  color: #000000;
-  border-right: 1px solid #e0e0e0; }
+  color: #000000; }
 
 .eui-viewport .col-header {
   padding: 1.16em;
-  color: #8f8f8f; }
+  color: #8f8f8f;
+  border-right: 1px solid #e0e0e0; }
 
 .eui-viewport .col-body {
+  padding: 12px 16px;
+  font-size: 1em;
+  line-height: 1.1;
+  color: #222222;
   overflow: hidden;
   vertical-align: top;
   /* fix extra space generated by overflow: hidden */ }
 
-.eui-viewport nav.eui-paging > .eui-status {
-  display: inline-block;
-  padding: 0.5em 0;
+.eui-viewport nav.eui-paging span.eui-status {
   font-size: 0.84em;
-  color: #232323; }
+  color: #222222; }
 
 .eui-viewport form.eui-form, .eui-viewport div.eui-select {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif; }
   .eui-viewport form.eui-form span.eui-fieldset, .eui-viewport div.eui-select span.eui-fieldset {
     display: block;
-    margin: 0.8em 6px;
     font-size: 1.08em;
     font-weight: bold;
     line-height: 1.76em;
-    color: #232323;
-    border-bottom: 1px solid #d9d9d9; }
-  .eui-viewport form.eui-form .eui-field, .eui-viewport div.eui-select .eui-field {
-    display: block;
-    margin: 0 0 1em 0;
-    padding: 0 6px; }
+    color: #222222;
+    border-bottom: 1px solid #dbdbdb; }
   .eui-viewport form.eui-form label, .eui-viewport div.eui-select label {
     display: block;
     line-height: 1.75em;
-    color: #232323;
+    color: #222222;
     font-size: 1em;
     font-weight: bold;
     -webkit-tap-highlight-color: transparent; }
@@ -871,13 +866,13 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
   .eui-viewport form.eui-form input, .eui-viewport form.eui-form select, .eui-viewport form.eui-form textarea, .eui-viewport form.eui-form .eui-input, .eui-viewport div.eui-select input, .eui-viewport div.eui-select select, .eui-viewport div.eui-select textarea, .eui-viewport div.eui-select .eui-input {
     display: block;
     width: 100%;
-    height: 2.56em;
     margin: 0;
-    padding: 0 0.64em;
-    line-height: 2.56em;
+    padding: 11px;
+    line-height: 1.1;
     font-size: 1em;
-    background: #ffffff;
-    border: 1px solid #d9d9d9;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background: #ebebeb;
+    border: 1px solid #dbdbdb;
     box-shadow: none;
     outline: none; }
     .eui-viewport form.eui-form input::placeholder, .eui-viewport form.eui-form select::placeholder, .eui-viewport form.eui-form textarea::placeholder, .eui-viewport form.eui-form .eui-input::placeholder, .eui-viewport div.eui-select input::placeholder, .eui-viewport div.eui-select select::placeholder, .eui-viewport div.eui-select textarea::placeholder, .eui-viewport div.eui-select .eui-input::placeholder {
@@ -886,7 +881,8 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
   .eui-viewport form.eui-form textarea, .eui-viewport div.eui-select textarea {
     min-height: 6em; }
   .eui-viewport form.eui-form input:focus, .eui-viewport form.eui-form select:focus, .eui-viewport form.eui-form textarea:focus, .eui-viewport form.eui-form .eui-input:focus, .eui-viewport div.eui-select input:focus, .eui-viewport div.eui-select select:focus, .eui-viewport div.eui-select textarea:focus, .eui-viewport div.eui-select .eui-input:focus {
-    border: 1px solid #3771c8; }
+    background: #e7f3fe;
+    border: 1px solid #0d8bf2; }
   .eui-viewport form.eui-form input[disabled],
   .eui-viewport form.eui-form input[readonly],
   .eui-viewport form.eui-form select[disabled],
@@ -898,20 +894,9 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
   .eui-viewport div.eui-select select[readonly],
   .eui-viewport div.eui-select textarea[disabled],
   .eui-viewport div.eui-select textarea[readonly] {
-    background: #e6e6e6;
-    color: #232323; }
-    .eui-viewport form.eui-form input[disabled]:focus,
-    .eui-viewport form.eui-form input[readonly]:focus,
-    .eui-viewport form.eui-form select[disabled]:focus,
-    .eui-viewport form.eui-form select[readonly]:focus,
-    .eui-viewport form.eui-form textarea[disabled]:focus,
-    .eui-viewport form.eui-form textarea[readonly]:focus, .eui-viewport div.eui-select input[disabled]:focus,
-    .eui-viewport div.eui-select input[readonly]:focus,
-    .eui-viewport div.eui-select select[disabled]:focus,
-    .eui-viewport div.eui-select select[readonly]:focus,
-    .eui-viewport div.eui-select textarea[disabled]:focus,
-    .eui-viewport div.eui-select textarea[readonly]:focus {
-      border: 1px solid #d9d9d9; }
+    background: #fafafa;
+    border: 1px solid #fafafa;
+    color: #222222; }
   .eui-viewport form.eui-form input[type="checkbox"],
   .eui-viewport form.eui-form input[type="radio"], .eui-viewport div.eui-select input[type="checkbox"],
   .eui-viewport div.eui-select input[type="radio"] {
@@ -926,55 +911,56 @@ Example: html, body { box-sizing: border-box; height: 100%; margin: 0; }
       content: "";
       display: inline-block;
       vertical-align: middle;
-      background: #ffffff;
-      border: 1px solid #d9d9d9;
+      background: #ebebeb;
+      border: 1px solid #dbdbdb;
       transition: border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;
       z-index: 1; }
     .eui-viewport form.eui-form input[type="checkbox"]:checked + span.eui-fake:before,
     .eui-viewport form.eui-form input[type="radio"]:checked + span.eui-fake:before, .eui-viewport div.eui-select input[type="checkbox"]:checked + span.eui-fake:before,
     .eui-viewport div.eui-select input[type="radio"]:checked + span.eui-fake:before {
-      border: 1px solid #3771c8;
+      border: 1px solid #0d8bf2;
       border-width: 5px; }
     .eui-viewport form.eui-form input[type="checkbox"]:disabled:not(:checked) + span.eui-fake:before,
     .eui-viewport form.eui-form input[type="radio"]:disabled:not(:checked) + span.eui-fake:before, .eui-viewport div.eui-select input[type="checkbox"]:disabled:not(:checked) + span.eui-fake:before,
     .eui-viewport div.eui-select input[type="radio"]:disabled:not(:checked) + span.eui-fake:before {
-      background: #e6e6e6; }
+      background: #fafafa;
+      border: 1px solid #fafafa; }
     .eui-viewport form.eui-form input[type="checkbox"]:disabled:checked + span.eui-fake:before,
     .eui-viewport form.eui-form input[type="radio"]:disabled:checked + span.eui-fake:before, .eui-viewport div.eui-select input[type="checkbox"]:disabled:checked + span.eui-fake:before,
     .eui-viewport div.eui-select input[type="radio"]:disabled:checked + span.eui-fake:before {
-      background: #e6e6e6;
-      border-color: #87aade;
+      background: #fafafa;
+      border-color: #a6b4c9;
       border-width: 5px; }
   .eui-viewport form.eui-form input[type=radio] + span.eui-fake:before, .eui-viewport div.eui-select input[type=radio] + span.eui-fake:before {
     border-radius: 50%; }
   .eui-viewport form.eui-form .eui-input-icon, .eui-viewport div.eui-select .eui-input-icon {
     display: flex;
-    border: 1px solid #d9d9d9; }
+    border: 1px solid #dbdbdb; }
     .eui-viewport form.eui-form .eui-input-icon:focus-within, .eui-viewport div.eui-select .eui-input-icon:focus-within {
-      border: 1px solid #3771c8; }
+      border: 1px solid #0d8bf2; }
     .eui-viewport form.eui-form .eui-input-icon input, .eui-viewport form.eui-form .eui-input-icon select, .eui-viewport form.eui-form .eui-input-icon textarea, .eui-viewport form.eui-form .eui-input-icon .eui-input, .eui-viewport div.eui-select .eui-input-icon input, .eui-viewport div.eui-select .eui-input-icon select, .eui-viewport div.eui-select .eui-input-icon textarea, .eui-viewport div.eui-select .eui-input-icon .eui-input {
       border: 0; }
     .eui-viewport form.eui-form .eui-input-icon i.eui-icon, .eui-viewport div.eui-select .eui-input-icon i.eui-icon {
       padding: 0.64em 0.32em;
       vertical-align: middle;
       line-height: 1.28em;
-      background: #ffffff; }
+      background: #ebebeb; }
 
 div.eui-select {
   margin: 0;
   padding: 0;
   z-index: 2; }
   div.eui-select .eui-input.eui-open {
-    border: 1px solid #3771c8;
-    border-bottom: 1px solid #f2f2f2; }
+    border: 1px solid #0d8bf2;
+    border-bottom: 1px solid #fafafa; }
   div.eui-select div.eui-select-container {
     display: none; }
     div.eui-select div.eui-select-container.eui-open {
       display: block; }
     div.eui-select div.eui-select-container div.eui-select-content {
       position: absolute;
-      background: #ffffff;
-      border: 1px solid #3771c8;
+      background: #ebebeb;
+      border: 1px solid #0d8bf2;
       border-top: 0; }
       div.eui-select div.eui-select-container div.eui-select-content input, div.eui-select div.eui-select-container div.eui-select-content input:focus {
         border: none; }
@@ -997,15 +983,15 @@ div.eui-select {
             font-size: 1em;
             outline: none; }
             div.eui-select div.eui-select-container div.eui-select-content > ul li a:hover {
-              color: #ffffff;
-              background: #3771c8;
+              color: #ebebeb;
+              background: #0d8bf2;
               cursor: pointer; }
 
 .eui-viewport i.eui-icon.eui-primary {
   color: #214478; }
 
 .eui-viewport i.eui-icon.eui-secondary {
-  color: #5AA02C; }
+  color: #5aa02c; }
 
 .eui-viewport i.eui-icon.eui-danger {
   color: #f21c0d; }
@@ -1040,7 +1026,7 @@ div.eui-select {
   .eui-viewport a.eui-link.eui-primary {
     color: #214478; }
   .eui-viewport a.eui-link.eui-secondary {
-    color: #5AA02C; }
+    color: #5aa02c; }
   .eui-viewport a.eui-link.eui-danger {
     color: #f21c0d; }
   .eui-viewport a.eui-link.eui-warning {
@@ -1052,9 +1038,9 @@ div.eui-select {
   .eui-viewport a.eui-link.eui-safety {
     color: #4eb151; }
   .eui-viewport a.eui-link.eui-black {
-    color: #232323; }
+    color: #222222; }
   .eui-viewport a.eui-link.eui-white {
-    color: #ffffff; }
+    color: #ebebeb; }
   .eui-viewport a.eui-link:disabled, .eui-viewport a.eui-link[disabled] {
     pointer-events: none;
     color: #8f8f8f;
@@ -1075,18 +1061,18 @@ ol.eui, ul.eui {
   ol.eui.eui-relaxed li, ul.eui.eui-relaxed li {
     padding: 1em; }
   ol.eui.eui-divided, ul.eui.eui-divided {
-    border-top: 1px solid #e6e6e6; }
+    border-top: 1px solid #ebebeb; }
     ol.eui.eui-divided, ol.eui.eui-divided ol, ol.eui.eui-divided ul, ul.eui.eui-divided, ul.eui.eui-divided ol, ul.eui.eui-divided ul {
       list-style: none; }
     ol.eui.eui-divided li, ul.eui.eui-divided li {
-      border-bottom: 1px solid #e6e6e6; }
+      border-bottom: 1px solid #ebebeb; }
   ol.eui.eui-hover li:hover, ul.eui.eui-hover li:hover {
-    background: #f2f2f2; }
+    background: #fafafa; }
   ol.eui.eui-darker, ul.eui.eui-darker {
-    border-top: 1px solid #e6e6e6; }
+    border-top: 1px solid #ebebeb; }
     ol.eui.eui-darker li, ul.eui.eui-darker li {
-      background: #e6e6e6;
-      border-bottom: 1px solid #f2f2f2; }
+      background: #ebebeb;
+      border-bottom: 1px solid #fafafa; }
 
 .eui-viewport .eui-loading div.eui-ball {
   width: 0.72em;
@@ -1122,34 +1108,35 @@ ol.eui, ul.eui {
     transform: scale(1); } }
 
 .eui-viewport .eui-notification {
-  padding: 0.64em 1.28em;
+  padding: 12px 16px;
   font-size: 1em;
-  color: #232323;
-  background-color: #f2f2f2; }
+  line-height: 1.1;
+  color: #222222;
+  background-color: #fafafa; }
   .eui-viewport .eui-notification.eui-primary {
     color: #ffffff;
     background: #214478; }
   .eui-viewport .eui-notification.eui-secondary {
     color: #ffffff;
-    background: #5AA02C; }
+    background: #5aa02c; }
   .eui-viewport .eui-notification.eui-reverse {
     color: #ffffff;
     background: #000000; }
   .eui-viewport .eui-notification.eui-danger {
-    background: #fccdca; }
+    background: #fee8e7; }
   .eui-viewport .eui-notification.eui-warning {
-    background: #ffe9c7; }
+    background: #fff5e6; }
   .eui-viewport .eui-notification.eui-caution {
-    background: #fffce5; }
+    background: #fffce6; }
   .eui-viewport .eui-notification.eui-notice {
-    background: #cae5fc; }
+    background: #e7f3fe; }
   .eui-viewport .eui-notification.eui-safety {
-    background: #d8eed9; }
+    background: #edf7ee; }
 
 .eui-viewport div.eui-progress {
   width: 100%;
   height: 0.56em;
-  background: #87aade; }
+  background: #a6b4c9; }
   .eui-viewport div.eui-progress div.eui-bar {
     width: 0;
     height: 0.56em;
@@ -1193,37 +1180,39 @@ ol.eui, ul.eui {
   padding: 0;
   border-collapse: collapse;
   border-spacing: 0px;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #ebebeb;
   background: #ffffff;
   white-space: nowrap; }
   .eui-viewport table.eui-table.eui-striped > tbody > tr:nth-child(odd) {
-    background-color: #f2f2f2; }
+    background-color: #fafafa; }
   .eui-viewport table.eui-table > thead > tr > th {
-    padding: 1.16em;
-    border-bottom: 1px solid #e6e6e6;
+    padding: 16px;
+    border-bottom: 1px solid #ebebeb;
     font-size: 0.92em;
     font-weight: bold;
     text-align: left;
-    color: #8f8f8f; }
+    line-height: 1.1;
+    color: #888888; }
   .eui-viewport table.eui-table > tbody > tr > td {
-    padding: 0.64em 1.28em;
-    border-bottom: 1px solid #e6e6e6;
+    padding: 12px 16px;
+    border-bottom: 1px solid #ebebeb;
     font-size: 1em;
-    color: #232323; }
+    line-height: 1.1;
+    color: #222222; }
   .eui-viewport table.eui-table > tbody > tr:hover {
-    background-color: #e6e6e6 !important; }
+    background-color: #e9ecf2 !important; }
   .eui-viewport table.eui-table > tbody > tr.eui-gray {
-    background-color: #f2f2f2; }
+    background-color: #fafafa; }
   .eui-viewport table.eui-table > tbody > tr.eui-danger {
-    background-color: #fccdca; }
+    background-color: #fee8e7; }
   .eui-viewport table.eui-table > tbody > tr.eui-warning {
-    background-color: #ffe9c7; }
+    background-color: #fff5e6; }
   .eui-viewport table.eui-table > tbody > tr.eui-caution {
-    background-color: #fffce5; }
+    background-color: #fffce6; }
   .eui-viewport table.eui-table > tbody > tr.eui-notice {
-    background-color: #cae5fc; }
+    background-color: #e7f3fe; }
   .eui-viewport table.eui-table > tbody > tr.eui-safety {
-    background-color: #d8eed9; }
+    background-color: #edf7ee; }
   .eui-viewport table.eui-table > tbody > tr.eui-text-bold {
     font-weight: bold; }
 
@@ -1236,15 +1225,16 @@ ol.eui, ul.eui {
   cursor: pointer;
   list-style: none;
   font-size: 1em;
+  line-height: 1.1;
   text-align: left;
   -webkit-tap-highlight-color: transparent; }
   .eui-viewport ul.eui-tree a {
     display: block;
-    padding: 0.80em;
-    color: #232323;
+    padding: 12px 16px;
+    color: #222222;
     text-decoration: none; }
     .eui-viewport ul.eui-tree a:hover {
-      background: #f2f2f2; }
+      background: #e9ecf2; }
   .eui-viewport ul.eui-tree ul {
     margin: 0;
     padding: 0;

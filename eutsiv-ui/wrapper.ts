@@ -20,18 +20,19 @@ const menuTree = [
   {
     type: 'branch',
     text: 'layout',
+    open: true,
     children: [
       {
         type: 'leaf',
         text: 'Grid',
         onclick: () => setRoute('#!/index?path=layout/Grid')
-      }
-      /*
+      },
       {
         type: 'leaf',
         text: 'Gutter',
-        onclick: () => setRoute('#!/index?path=Color')
-      },
+        onclick: () => setRoute('#!/index?path=layout/Gutter')
+      }
+      /*
       {
         type: 'leaf',
         text: 'VSpace',
@@ -43,6 +44,7 @@ const menuTree = [
   {
     type: 'branch',
     text: 'widget',
+    open: true,
     children: [
       {
         type: 'branch',
@@ -145,7 +147,6 @@ const wrapperContainer = {
               m("h1", "eutsiv UI"),
               m(Tree, {
                 eui: {
-                  //open: true,
                   items: menuTree
                 }
               })

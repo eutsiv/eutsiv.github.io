@@ -2,7 +2,8 @@ import m from 'mithril'
 
 import {Section} from 'resources/Section'
 import {Grid, Row} from 'eutsiv-ui/layout/Grid'
-import {Field, Form} from 'eutsiv-ui/widget/Form'
+import {Gutter} from 'eutsiv-ui/layout/Gutter'
+import {Checkbox, Field, Form, Label, Radio} from 'eutsiv-ui/widget/Form'
 import {Button} from 'eutsiv-ui/widget/Button'
 import {Sizes} from 'eutsiv-ui'
 
@@ -15,49 +16,142 @@ let View = {
           m("h1", "Form"),
           m(Form,
             m(Grid, [
-              m(Row, [
-                m(Field, 
-                  m("input", { placeholder: "Id" })
-                ),
-                m(Field, 
-                  m("input", { placeholder: "Name" })
+              m(Row,
+                m(Field, { eui: { size: [24, 12] }},
+                  m(Label,
+                    'Id',
+                    m("input", { type: "text", name: "id", placeholder: "Id", disabled: "disabled" })
+                  )
                 )
-              ]),
-              m(Row, [
-                m(Field, 
-                  m("input", { placeholder: "E-mail" })
-                ),
-                m(Field, 
-                  m("input", { placeholder: "Password" })
+              ),
+              m(Row,
+                m(Field, { eui: { size: [24, 12] }},
+                  m(Label,
+                    'E-mail',
+                    m("input", { type: "text", name: "email", value: "test@test.com", placeholder: "E-mail", readonly: "readonly" })
+                  )
                 )
-              ]),
-              m(Row, [
-                m(Field, 
-                  m("input", { placeholder: "File" })
-                ),
-                m(Field, 
-                  m(Button, { eui: { context: "danger" } }, "Test")
+              ),
+              m(Row,
+                m(Field, { eui: { size: [24, 12] }},
+                  m(Label,
+                    'Name',
+                    m("input", { type: "text", name: "name", placeholder: "Name" })
+                  )
                 )
-              ])
+              ),
+              m(Row,
+                m(Field, { eui: { size: [24, 12] }},
+                  m(Label,
+                    'Description',
+                    m('textarea', {  name: "description", placeholder: "Description" })
+                  )
+                )
+              ),
+              m(Row,
+                m(Field, { eui: { size: [24, 12] }},
+                  m('span', { class: 'eui-fieldset' }, 'Some fieldset description')
+                )
+              ),
+              m(Row,
+                m(Field, { eui: { size: [24, 12] }},
+                  m(Label, { eui: { inline: true }}, 'Choose a car:'),
+                  m(Radio, { eui: { inline: true }, name: 'car', value: 'audi' }, 'Audi'),
+                  m(Radio, { eui: { inline: true }, name: 'car', value: 'bmw' }, 'BMW'),
+                  m(Radio, { eui: { inline: true }, name: 'car', value: 'porsche', checked: 'checked', disabled: 'disabled' }, 'Porsche'),
+                  m(Radio, { eui: { inline: true }, name: 'car', value: 'mercedes' }, 'Mercedes')
+                )
+              ),
+              m(Row,
+                m(Field, { eui: { size: [24, 12] }},
+                  m(Label, 'Other options:'),
+                  m(Checkbox, { name: 'virtual', value: 'true' }, 'Virtual'),
+                  m(Checkbox, { name: 'administrator', value: 'true', disabled: 'disabled' }, 'Administrator'),
+                  m(Checkbox, { name: 'active', value: 'true', checked: 'checked', disabled: 'disabled' }, 'Active')
+                )
+              ),
+              m(Row,
+                m(Gutter, { eui: { fit: false }},
+                  m(Button, 'Cancel')
+                ),
+                m(Gutter, { eui: { fit: false }},
+                  m(Button, { eui: { context: 'safety' } }, 'Save')
+                )
+              )
             ])
           )
         ],
         source: `
 import {Grid, Row} from 'eutsiv-ui/layout/Grid'
-import {Field, Form} from 'eutsiv-ui/widget/Form'
+import {Gutter} from 'eutsiv-ui/layout/Gutter'
+import {Checkbox, Field, Form, Label, Radio} from 'eutsiv-ui/widget/Form'
 import {Button} from 'eutsiv-ui/widget/Button'
 
 m(Form,
-  m(Grid, 
-    m(Row, [
-      m(Field, 
-        m("input", { placeholder: "Id" })
-      ),
-      m(Field, 
-        m(Button, { context: "danger" }, "Test")
+  m(Grid, [
+    m(Row,
+      m(Field, { eui: { size: [24, 12] }},
+        m(Label,
+          'Id',
+          m("input", { type: "text", name: "id", placeholder: "Id", disabled: "disabled" })
+        )
       )
-    ])
-  )
+    ),
+    m(Row,
+      m(Field, { eui: { size: [24, 12] }},
+        m(Label,
+          'E-mail',
+          m("input", { type: "text", name: "email", value: "test@test.com", placeholder: "E-mail", readonly: "readonly" })
+        )
+      )
+    ),
+    m(Row,
+      m(Field, { eui: { size: [24, 12] }},
+        m(Label,
+          'Name',
+          m("input", { type: "text", name: "name", placeholder: "Name" })
+        )
+      )
+    ),
+    m(Row,
+      m(Field, { eui: { size: [24, 12] }},
+        m(Label,
+          'Description',
+          m('textarea', {  name: "description", placeholder: "Description" })
+        )
+      )
+    ),
+    m(Row,
+      m(Field, { eui: { size: [24, 12] }},
+        m('span', { class: 'eui-fieldset' }, 'Some fieldset description')
+      )
+    ),
+    m(Row,
+      m(Field, { eui: { size: [24, 12] }},
+        m(Label, { eui: { inline: true }}, 'Choose a car:'),
+        m(Radio, { eui: { inline: true }, name: 'car', value: 'audi' }, 'Audi'),
+        m(Radio, { eui: { inline: true }, name: 'car', value: 'bmw' }, 'BMW'),
+        m(Radio, { eui: { inline: true }, name: 'car', value: 'porsche', checked: 'checked', disabled: 'disabled' }, 'Porsche'),
+        m(Radio, { eui: { inline: true }, name: 'car', value: 'mercedes' }, 'Mercedes')
+      )
+    ),
+    m(Row,
+      m(Field, { eui: { size: [24, 12] }},
+        m(Label, 'Other options:'),
+        m(Checkbox, { name: 'virtual', value: 'true' }, 'Virtual'),
+        m(Checkbox, { name: 'administrator', value: 'true', disabled: 'disabled' }, 'Administrator'),
+        m(Checkbox, { name: 'active', value: 'true', checked: 'checked', disabled: 'disabled' }, 'Active')
+      )
+    ),
+    m(Row,
+      m(Gutter, { eui: { fit: false }},
+        m(Button, 'Cancel')
+      ),
+      m(Gutter, { eui: { fit: false }},
+        m(Button, { eui: { context: 'safety' } }, 'Save')
+      )
+    )
+  ])
 )
         `
       })
