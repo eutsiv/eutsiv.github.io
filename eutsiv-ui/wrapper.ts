@@ -86,6 +86,11 @@ const menuTree = [
       },
       {
         type: 'leaf',
+        text: 'Badge',
+        onclick: () => setRoute('#!/index?path=widget/Badge')
+      },
+      {
+        type: 'leaf',
         text: 'Breadcrumb',
         onclick: () => setRoute('#!/index?path=widget/Breadcrumb')
       },
@@ -128,6 +133,11 @@ const menuTree = [
         type: 'leaf',
         text: 'Table',
         onclick: () => setRoute('#!/index?path=widget/Table')
+      },
+      {
+        type: 'leaf',
+        text: 'Tabs',
+        onclick: () => setRoute('#!/index?path=widget/Tabs')
       }
     ]
   }

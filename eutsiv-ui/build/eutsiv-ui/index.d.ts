@@ -1,6 +1,6 @@
 /// <reference types="mithril" />
 declare module "eutsiv-ui" {
-    const applyAttrsModifiers: (attrs: any, ...fn: any[]) => any;
+    const applyAttrsModifiers: (a: any, ...fn: any[]) => any;
     const Sizes: {
         XS: string;
         SM: string;
@@ -34,8 +34,9 @@ declare module "eutsiv-ui/Component" {
     };
     const applyClasses: (attrs: any) => any;
     const applyConfig: (attrs: any) => any;
+    const applyConfigContext: (attrs: any) => any;
     const applyConfigFit: (attrs: any) => any;
-    export { Component, applyClasses, applyConfig, applyConfigFit };
+    export { Component, applyClasses, applyConfig, applyConfigContext, applyConfigFit };
 }
 declare module "eutsiv-ui/Viewport" {
     import m from 'mithril';
@@ -88,6 +89,13 @@ declare module "eutsiv-ui/layout/Gutter" {
         view: (vn: any) => m.Vnode<any, any>;
     };
     export { Gutter };
+}
+declare module "eutsiv-ui/widget/Badge" {
+    import m from 'mithril';
+    const Badge: () => {
+        view: (vn: any) => m.Vnode<any, any>;
+    };
+    export { Badge };
 }
 declare module "eutsiv-ui/widget/Link" {
     import m from 'mithril';
@@ -184,16 +192,26 @@ declare module "eutsiv-ui/widget/Table" {
     };
     export { Table };
 }
+declare module "eutsiv-ui/widget/Tabs" {
+    import m from 'mithril';
+    const Tabs: () => {
+        view: (vn: any) => m.Vnode<any, any>;
+    };
+    export { Tabs };
+}
 declare module "eutsiv-ui/widget/calendar/Calendar" {
     import m from 'mithril';
-    const Calendar: (vc: any) => {
+    const Calendar: ({ attrs }: {
+        attrs: any;
+    }) => {
         view: (vn: any) => m.Vnode<any, any>;
     };
     export { Calendar };
 }
 declare module "eutsiv-ui/widget/data/Grid" {
     import m from 'mithril';
-    const Grid: (vni: any) => {
+    const Grid: () => {
+        oncreate: (vn: any) => void;
         view: (vn: any) => m.Vnode<any, any>;
     };
     export { Grid };
@@ -208,6 +226,13 @@ declare module "eutsiv-ui/widget/data/Paging" {
 declare module "eutsiv-ui/widget/form/ImprovedSelect" {
     const ImprovedSelect: () => void;
     export { ImprovedSelect };
+}
+declare module "eutsiv-ui/widget/form/MonthPicker" {
+    import m from 'mithril';
+    const MonthPicker: () => {
+        view: () => m.Vnode<any, any>[];
+    };
+    export { MonthPicker };
 }
 declare module "eutsiv-ui/widget/form/Select" {
     const Select: () => void;
